@@ -1,0 +1,256 @@
+/*font links start*/
+<style>@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+</style>
+/*font links end*/
+/*common css start*/
+body{
+    margin: 0px;
+    font-family: font-family: "Playfair Display", serif;
+    font-size:16px;
+    font-weight:400;
+    color:#626262;
+} 
+/*common css end*/
+/*header start*/
+header{
+    /*border: 1px solid chartreuse;*/
+    padding: 30px 0px;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+}
+.logo{
+    width: 12%;
+    margin-top:12px;
+    float: left;
+    /*border: 1px solid blue;*/
+}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    width: 65%;
+    float: right;
+    /*border: 1px solid blue;*/
+}
+.menu ul{
+    list-style: none;
+    float: right;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    display: inline-block;
+    margin: 0px 30px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .33s linear;
+}
+.menu ul li:last-child a {
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+} 
+
+/*header end*/
+/*banner start*/
+.banner{
+    width: 100%;
+}
+.b_img{}
+.b_img img{}
+
+/*banner end*/
+/*getaway start*/
+.getaway{
+    padding: 100px 0px;
+}
+.container2{
+    margin: 0 auto;
+    width: 80%;
+    /*border: 1px solid red;*/
+}
+.g_content{}
+.light{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #626262;
+}
+.title{
+    margin: 20px 0px 30px;
+    font-size: 30px;
+    font-weight: 400;
+    }
+.text{
+    margin: 0px;
+    line-height: 24px;
+}
+.g_link{
+    margin-top: 50px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/*getaway end*/
+/*blog start*/
+.blog{
+    padding: 0px 0px 20px;
+}
+.blog_c{
+    overflow: hidden;
+}
+.blog_single{
+    margin-bottom: 80px;
+    float: left;
+    width: 47%;
+    /*border: 1px solid green;*/
+    box-sizing: border-box;
+}
+.blog_single:nth-child(even) {
+    margin-left: 6%;
+}
+.blog_img{
+    margin-bottom: 20px;
+}
+.blog_h2{}
+.blog_img img{
+    width: 100%;
+}
+
+/*blog end*/
+/*newsletter start*/
+.newsletter{
+    margin-top: 0px;
+    background-color: #f0f0f0;
+}
+.container4{
+    margin: 0px auto;
+    width: 60%;
+}
+.signup{
+    text-align: center;
+}
+.signup h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.for_form{
+    width: 350px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+}
+.for_form input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+    width: 290px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10x;
+    padding-right: 60px;
+}
+.for_form button{
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+.for_form button img{}
+
+/*newsletter end*/
+/*extra blogs start*/
+.extra_blog{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.blogs{}
+.load{
+    text-align: center;
+}
+.load button{
+    width: 165px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid #626262;
+    font-family: font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    transition: .33s linear;
+    }
+.load button:hover{
+    background-color: #626262;
+    color: #fff;
+}
+/*extra blogs end*/
+/*footer start*/
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f0f0f0;
+}
+.pages{
+    /*margin-top: 15px;*/
+    width: 25%;
+    float: left;
+    /*border: 1px solid blue;*/
+}
+.pages ul{
+    /*text-align: left;*/
+    float: left;
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 100%;
+}
+.pages ul li{
+    list-style: none;
+    float: left;
+}
+.pages ul li a{
+    margin: 0px 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+
+}
+.social{
+    /*margin-top: 15px;*/
+    width: 22%;
+    float: right;
+    /*border: 1px solid blue;*/
+}
+.social ul{
+    list-style: none;
+    float: right;
+}
+.social ul li{
+    float: left;
+}
+.social ul li a{
+    display: inline-block;
+    margin: 0px 10px;
+    text-decoration: none;
+
+}
+.social ul li a img{}
+/*footer end*/
